@@ -92,7 +92,7 @@ class GithubPopularRepos extends Component {
             <Loader type="ThreeDots" color="#0284c7" height={80} width={80} />
           </div>
         ) : (
-          {compo}
+          compo
         )}
       </div>
     )

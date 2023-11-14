@@ -10,7 +10,7 @@ const LanguageFilterItem = props => {
   const butt = isEnabled ? 'activee' : 'normall'
   return (
     <li>
-      <button className={butt} type="button" onClick={changee()}>
+      <button className={butt} type="button" onClick={changee}>
         {language}
       </button>
     </li>
